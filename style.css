@@ -32,12 +32,34 @@ i{
     color: #b0b3b8;
     margin-right: 2px;
 }
+#textWrapper{
+   display: flex;
+   justify-content: center;
+   visibility: hidden;
+}
 #textarea{
     /* margin: 0 auto; */
-    text-align: center;
-    
+    /* text-align: center; */
+    position: relative;  
+    width: 370px; 
+    height: 70px;
 }
+textarea{
+    text-align: left;
+    padding: 5px 5px;
+    color: #cdd2db;
+}
+
 #like{
     padding: 5px 7px;
     border-radius: 5px;
+}
+#textarea a{
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+}
+#commentShow{
+    margin: 0 auto;
+    width: 370px; 
 }
